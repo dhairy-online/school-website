@@ -5,19 +5,19 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	theme: {
 		extend: {
-		  fontFamily: {
-			'poppins': ['Poppins', 'sans-serif'] 
-		  },
-		},
-	  },
+			fontFamily: {
+				poppins: ['Poppins', 'sans-serif']
+			}
+		}
+	},
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({
-		  postcss: true,
-		}),
-	  ],
-	  
+			postcss: true
+		})
+	],
+
 	kit: {
 		adapter: adapter()
 	}

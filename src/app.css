@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-gradient {
+	background: linear-gradient(
+			251.12deg,
+			rgba(11, 6, 53, 0.84) 23.57%,
+			rgba(31, 21, 112, 0) 45.41%,
+			rgba(14, 30, 72, 0.0423017) 68.21%,
+			rgba(0, 0, 0, 0.12) 83.47%,
+			rgba(1, 0, 9, 0.1176) 83.47%
+		),
+		linear-gradient(288deg, #040617 26.22%, rgba(9, 6, 36, 0.81) 95.78%);
+	box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	color: #fff;
+	border: 0px;
+	@apply hover:transform hover:transition-transform hover:scale-110;
+}

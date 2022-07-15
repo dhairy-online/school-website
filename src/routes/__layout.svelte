@@ -5,6 +5,8 @@
 </script>
 
 <svelte:head>
+	<title>LSES Community</title>
+	<link rel="icon" href="./lses.png" type="image/icon" />
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 </svelte:head>
 

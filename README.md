@@ -1,2 +1,2 @@
 # LSES Community
-Official website for LSES
+Official website for LSES Community
